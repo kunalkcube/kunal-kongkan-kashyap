@@ -3,3 +3,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stroke_text {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+    margin: 0 10px;
+}
+
+.marquee {
+    --offset: 20vw;
+    --move-initial: calc(-20% + var(--offset));
+    --move-final: calc(-40% + var(--offset));
+}
+
+.marquee__inner {
+    transform: translate3d(0, 0, 0);
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.btn {
+    box-shadow: 5px 5px #333;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.input {
+    box-shadow: 3px 3px #333;
+    transition: box-shadow 0.3s ease;
+}
+
+.textarea {
+    box-shadow: 3px 3px #333;
+    transition: box-shadow 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+    box-shadow: none;
+}
+
+.project-title {
+    @apply text-xl font-semibold font-teko text-left;
+}
+
+.project-link {
+    @apply flex justify-center items-center font-teko text-sm cursor-pointer px-2 py-1
+}
