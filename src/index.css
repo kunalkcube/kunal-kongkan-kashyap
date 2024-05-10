@@ -61,5 +61,5 @@
 }
 
 .project-link {
-    @apply flex justify-center items-center font-teko text-sm cursor-pointer px-2 py-1
+    @apply flex justify-center items-center font-teko text-sm cursor-pointer px-2 py-1 lg:text-base;
 }

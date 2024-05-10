@@ -3,9 +3,9 @@ import { RiHeartFill, RiInstagramFill, RiTwitterFill, RiGithubFill } from '@remi
 
 const Footer = () => {
     return (
-        <footer className='py-7 px-4 bg-secondary text-left'>
+        <footer className='py-7 px-4 bg-secondary text-left max-w-6xl mx-auto'>
             <div className='flex justify-between items-center mb-2'>
-                <div className='text-base text-primary font-teko flex flex-row font-semibold'>
+                <div className='text-base text-primary font-teko flex flex-row font-semibold lg:text-lg'>
                     <span className='mr-1'>Made with</span>
                     <RiHeartFill size={16} color='red' />
                     <span className='ml-1'>by Kunal</span>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <p className='text-base text-primary font-teko font-semibold'>© 2023 Kunalkcube. All rights reserved.</p>
+                <p className='text-base text-primary font-teko font-semibold lg:text-lg'>© 2024 Kunalkcube.</p>
             </div>
         </footer>
     )
