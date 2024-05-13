@@ -7,7 +7,7 @@ import Marquee from '../components/Marquee'
 const Projects = () => {
     return (
         <section className='px-4 pt-24 pb-7 bg-secondary max-w-6xl mx-auto'>
-            <Marquee />
+            <Marquee title="PROJECTS" textSize="text-7xl lg:text-9xl" marginBottom="mb-6" />
             <div className='flex flex-col lg:grid lg:grid-cols-2 lg:gap-3'>
                 <ProjectCard image={Project1} title="Components" link="/" />
                 <ProjectCard image={Project2} title="PhiliGenie" link="/" />

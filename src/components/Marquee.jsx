@@ -1,33 +1,33 @@
 import React from 'react'
 
-const Marquee = () => {
+const Marquee = ({ title, textSize, marginBottom }) => {
     return (
-        <div className="marquee relative overflow-hidden mb-4">
+        <div className={`marquee relative overflow-hidden ${marginBottom}`}>
             <div className="marquee__inner w-fit flex relative" aria-hidden="true">
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold stroke_text">PROJECTS</h2>
-                <h2 className="text-6xl lg:text-8xl font-teko font-semibold">PROJECTS</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold stroke_text`}>{title}</h2>
+                <h2 className={`${textSize} font-teko font-semibold`}>{title}</h2>
             </div>
         </div>
     )

@@ -23,7 +23,7 @@ const Home = () => {
                 <p className='text-base font-teko mt-6 sm:text-lg lg:text-xl'>Apart from my technical pursuits, I find enjoyment in playing carrom and chess. These games provide a welcome break from coding and allow me to exercise my strategic thinking skills.</p>
             </section>
             <section className='py-7 px-4 bg-secondary max-w-6xl mx-auto'>
-                <Marquee />
+                <Marquee title="PROJECTS" textSize="text-6xl lg:text-8xl" marginBottom="mb-6" />
                 <div className='flex flex-col lg:grid lg:grid-cols-2 lg:gap-3'>
                     <ProjectCard image={Project1} title="Components" link="/" />
                     <ProjectCard image={Project2} title="PhiliGenie" link="/" />
