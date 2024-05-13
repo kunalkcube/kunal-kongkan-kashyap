@@ -7,7 +7,7 @@ const About = () => {
         <>
             <section className='px-4 pt-24 pb-3 bg-secondary text-left max-w-6xl mx-auto relative'>
                 <Marquee title="ABOUT" textSize="text-7xl lg:text-9xl" marginBottom="mb-24" />
-                <div className='w-60 h-60 absolute z-10 top-0 right-0 flex justify-center items-center overflow-hidden rounded-bl-[100px]'>
+                <div className='w-60 h-60 lg:w-1/3 lg:h-3/4 lg:rounded-bl-[140px] absolute top-0 right-0 flex justify-center items-center overflow-hidden rounded-bl-[100px]'>
                     <img className='w-full h-full object-cover' src={Kongkan} alt="Kunal Kongkan Kashyap" />
                 </div>
                 <h1 className='text-2xl mb-1 font-lora font-bold lg:text-3xl'>Kunal Kongkan Kashyap</h1>
