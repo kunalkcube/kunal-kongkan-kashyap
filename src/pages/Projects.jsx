@@ -33,7 +33,6 @@ const Projects = () => {
                 <ProjectCard image={Project22} title="Scribe" link="/" />
                 <ProjectCard image={Project23} title="Detemsic" link="/" />
             </div>
-            <Link to="/projects" className='inline-block px-2 py-1 bg-secondary border border-primary font-teko text-primary text-xl cursor-pointer hover:bg-primary hover:text-secondary btn lg:text-2xl font-semibold'>See More</Link>
         </section>
     )
 }
