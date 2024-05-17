@@ -16,8 +16,8 @@ const About = () => {
             </section>
             <section className='py-7 px-4 bg-secondary max-w-6xl mx-auto'>
                 <h2 className='text-xl font-teko font-bold lg:text-2xl'>Education</h2>
-                <div class="relative flex flex-col">
-                    <div class="relative p-2 mt-5 border border-label">
+                <div className="relative flex flex-col">
+                    <div className="relative p-2 mt-5 border border-label">
                         <div className='absolute top-2 right-2'>
                             <div className='animate-ping w-3 h-3 rounded-full bg-primary'></div>
                             <div className='absolute top-0 right-0 w-3 h-3 rounded-full bg-primary'></div>
@@ -26,13 +26,13 @@ const About = () => {
                         <h3 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Computer Science</h3>
                         <span className='text-base font-teko font-semibold bg-slate-300 px-2 py-1 lg:text-lg'>Integrated MSc</span>
                     </div>
-                    <div class="relative p-2 mt-5 border border-label">
+                    <div className="relative p-2 mt-5 border border-label">
                         <div className='absolute top-2 right-2 w-3 h-3 rounded-full bg-primary'></div>
                         <h2 className='text-xl mb-1 font-teko font-bold lg:text-2xl'>Gateway Senior Secondary School</h2>
                         <h3 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Science</h3>
                         <span className='text-base font-teko font-semibold bg-slate-300 px-2 py-1 lg:text-lg'>Class 12</span>
                     </div>
-                    <div class="relative p-2 mt-5 border border-label">
+                    <div className="relative p-2 mt-5 border border-label">
                         <div className='absolute top-2 right-2 w-3 h-3 rounded-full bg-primary'></div>
                         <h2 className='text-xl mb-1 font-teko font-bold lg:text-2xl'>Adarsha Jatiya Vidyalaya, Bihdia</h2>
                         <span className='text-base font-teko font-semibold bg-slate-300 px-2 py-1 lg:text-lg'>Class 10</span>
@@ -40,23 +40,64 @@ const About = () => {
                 </div>
             </section>
             <section className='py-7 px-4 bg-secondary max-w-6xl mx-auto'>
-                <div class="flex flex-col">
-                    <h2 className='text-xl mb-2 font-teko font-bold lg:text-2xl'>Main Skills</h2>
-                    <div class="flex flex-wrap">
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>HTML</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>CSS</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>JavaScript</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>PHP</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>SQl</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Tailwind CSS</span>
-                        <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>BootStrap</span>
+                <div className="flex flex-col">
+                    <h2 className='text-xl mb-3 font-teko font-bold lg:text-2xl'>Main Skills</h2>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Languages</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>HTML</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>CSS</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>JavaScript</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>PHP</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>SQL</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Frameworks and Libraries</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Express JS</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>React JS</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>JavaScript Runtime Environment</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Node JS</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>CSS Frameworks</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Tailwind CSS</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Bootstrap</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Databases</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Mongo DB</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>MySQL</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>Version Control</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Git</span>
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Github</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-3">
+                        <h2 className='text-lg mb-1 font-teko font-semibold lg:text-xl'>DevOps</h2>
+                        <div className="flex flex-wrap">
+                            <span className='inline-block py-2 px-3 m-1 bg-secondary border border-label text-lg lg:text-xl font-semibold font-teko'>Docker</span>
+                        </div>
                     </div>
                 </div>
             </section>
             <section className='py-7 px-4 bg-secondary max-w-6xl mx-auto'>
-                <div class="flex flex-col">
+                <div className="flex flex-col">
                     <h2 className='text-xl mb-2 font-teko font-bold lg:text-2xl'>Languages</h2>
-                    <div class="flex flex-col">
+                    <div className="flex flex-col">
                         <ul className='list-disc'>
                             <li className='text-lg lg:text-xl font-teko mb-1 text-primary relative ml-6'><span className='font-semibold'>English</span> (Intermediate)</li>
                             <li className='text-lg lg:text-xl font-teko mb-1 text-primary relative ml-6'><span className='font-semibold'>Assamese</span> (Native)</li>
