@@ -22,6 +22,9 @@ import Project20 from './project_20.png';
 import Project21 from './project_21.png';
 import Project22 from './project_22.png';
 import Project23 from './project_23.png';
+import Project24 from './project_24.png';
+import Project25 from './project_25.png';
+import Project26 from './project_26.png';
 
 
 export {
@@ -49,4 +52,7 @@ export {
     Project21,
     Project22,
     Project23,
+    Project24,
+    Project25,
+    Project26
 }

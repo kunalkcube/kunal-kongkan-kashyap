@@ -1,5 +1,5 @@
 import React from 'react'
-import { Project1, Project10, Project11, Project12, Project13, Project14, Project15, Project16, Project17, Project18, Project19, Project2, Project20, Project21, Project22, Project23, Project3, Project4, Project5, Project6, Project7, Project8, Project9 } from '../assets/index'
+import { Project1, Project10, Project11, Project12, Project13, Project14, Project15, Project16, Project17, Project18, Project19, Project2, Project20, Project21, Project22, Project23, Project24, Project25, Project26, Project3, Project4, Project5, Project6, Project7, Project8, Project9 } from '../assets/index'
 import ProjectCard from '../components/ProjectCard'
 import { Link } from 'react-router-dom'
 import Marquee from '../components/Marquee'
@@ -32,6 +32,9 @@ const Projects = () => {
                 <ProjectCard image={Project21} title="Tabbed Interface" link="/" />
                 <ProjectCard image={Project22} title="Scribe" link="/" />
                 <ProjectCard image={Project23} title="Detemsic" link="/" />
+                <ProjectCard image={Project24} title="Note Taking App" link="/" />
+                <ProjectCard image={Project25} title="Bhagavad Gita" link="/" />
+                <ProjectCard image={Project26} title="CipherCommand-Console" link="/" />
             </div>
         </section>
     )
