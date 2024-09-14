@@ -37,6 +37,9 @@ const Header = () => {
                             <li>
                                 <Link to="/projects" className='no-underline text-lg lg:text-xl font-semibold font-teko cursor-pointer text-primary hover:text-black' onClick={closeMenu}>Projects</Link>
                             </li>
+                            <li>
+                                <Link to="/blogs" className='no-underline text-lg lg:text-xl font-semibold font-teko cursor-pointer text-primary hover:text-black' onClick={closeMenu}>Blogs</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -60,6 +63,9 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link to="/projects" className='flex justify-end mt-4 no-underline text-white text-xl cursor-pointer font-semibold font-teko' onClick={closeMenu}>Projects</Link>
+                            </li>
+                            <li>
+                                <Link to="/blogs" className='flex justify-end mt-4 no-underline text-white text-xl cursor-pointer font-semibold font-teko' onClick={closeMenu}>Blogs</Link>
                             </li>
                         </ul>
                     </div>
