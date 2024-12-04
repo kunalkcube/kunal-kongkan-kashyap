@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import rehypeHighlight from 'rehype-highlight'
+import 'highlight.js/styles/atom-one-dark.css'
 import { databases, DATABASE_ID, COLLECTION_ID } from '../appwrite'
 
 export default function BlogPost() {
@@ -35,13 +37,16 @@ export default function BlogPost() {
     if (!post) return <div className="flex justify-center items-center h-screen font-teko">Blog post not found</div>
 
     return (
-        <article className="px-4 pt-24 pb-10 bg-secondary text-left max-w-6xl mx-auto relative">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-teko text-primary">{post.title}</h1>
-            <p className="text-sm text-gray-700 mb-6 font-teko">
+        <article className="px-4 pt-24 pb-10 bg-secondary text-left max-w-6xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-6 font-teko text-primary">{post.title}</h1>
+            <p className="text-sm text-gray-500 italic mb-6">
                 Last updated on {formatDate(post.$updatedAt)}
             </p>
-            <div className="prose prose-lg max-w-none text-primary font-teko">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <div className="prose prose-lg max-w-none font-teko text-primary">
+                <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    rehypePlugins={[rehypeHighlight]}
+                >
                     {post.content}
                 </ReactMarkdown>
             </div>
