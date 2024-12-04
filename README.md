@@ -1,8 +1,7 @@
-# React + Vite
+# Portfolio Website with React JS and Appwrite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built with React JS for the frontend and Appwrite for backend services. This project showcases my skills, projects, and experiences in an interactive and visually appealing manner.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Technologies Used**
+- React JS
+- Appwrite
